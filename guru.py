@@ -9,7 +9,7 @@ st.title("⚽ El Gurú del Parley - Central de Pronósticos")
 st.write("Selecciona la pestaña según el tipo de jugada que busques. La IA escaneará internet en tiempo real.")
 
 # Inicializar cliente con tu API Key
-= client = genai.Client()
+client = genai.Client()
 
 # Barra lateral común para el nivel de riesgo
 st.sidebar.header("⚙️ Configuración Global")
